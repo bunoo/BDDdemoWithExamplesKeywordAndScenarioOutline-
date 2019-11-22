@@ -1,0 +1,288 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Multiple DataSets",
+        "description": "",
+        "id": "achieving-data-driven-testing-in-bdd-cucumber-with-examples-keyword-and-scenario-outline;multiple-datasets;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 674582500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hello",
+            "match": {
+              "location": "DataDriven.hello()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5688500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"Abha\" and \"Kumari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abha",
+                  "offset": 13
+                },
+                {
+                  "val": "Kumari",
+                  "offset": 24
+                }
+              ],
+              "location": "DataDriven.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hi",
+            "match": {
+              "location": "DataDriven.hi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 726000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#Similar kind of words should be avoided else cucumber gets confused. That is why the word \u003c\u003cagain\u003e\u003e is written to avoid \u003c\u003ccucumber.runtime.AmbiguousStepDefinitionsException: matches more than one step definition\u003e\u003e"
+              }
+            ],
+            "line": 8,
+            "name": "user again enters \"SSE\" and \"01-02-2001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SSE",
+                  "offset": 19
+                },
+                {
+                  "val": "01-02-2001",
+                  "offset": 29
+                }
+              ],
+              "location": "DataDriven.user_again_enters_designation_and_dob(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Multiple DataSets",
+        "description": "",
+        "id": "achieving-data-driven-testing-in-bdd-cucumber-with-examples-keyword-and-scenario-outline;multiple-datasets;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 322300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hello",
+            "match": {
+              "location": "DataDriven.hello()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4363800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"Piyush\" and \"Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Piyush",
+                  "offset": 13
+                },
+                {
+                  "val": "Kumar",
+                  "offset": 26
+                }
+              ],
+              "location": "DataDriven.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 370600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hi",
+            "match": {
+              "location": "DataDriven.hi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 534900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#Similar kind of words should be avoided else cucumber gets confused. That is why the word \u003c\u003cagain\u003e\u003e is written to avoid \u003c\u003ccucumber.runtime.AmbiguousStepDefinitionsException: matches more than one step definition\u003e\u003e"
+              }
+            ],
+            "line": 8,
+            "name": "user again enters \"SE\" and \"02-03-2002\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SE",
+                  "offset": 19
+                },
+                {
+                  "val": "02-03-2002",
+                  "offset": 28
+                }
+              ],
+              "location": "DataDriven.user_again_enters_designation_and_dob(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Multiple DataSets",
+        "description": "",
+        "id": "achieving-data-driven-testing-in-bdd-cucumber-with-examples-keyword-and-scenario-outline;multiple-datasets;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 191600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hello",
+            "match": {
+              "location": "DataDriven.hello()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 725500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"Anika\" and \"Singh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anika",
+                  "offset": 13
+                },
+                {
+                  "val": "Singh",
+                  "offset": 25
+                }
+              ],
+              "location": "DataDriven.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hi",
+            "match": {
+              "location": "DataDriven.hi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 586600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#Similar kind of words should be avoided else cucumber gets confused. That is why the word \u003c\u003cagain\u003e\u003e is written to avoid \u003c\u003ccucumber.runtime.AmbiguousStepDefinitionsException: matches more than one step definition\u003e\u003e"
+              }
+            ],
+            "line": 8,
+            "name": "user again enters \"ASE\" and \"03-03-2003\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ASE",
+                  "offset": 19
+                },
+                {
+                  "val": "03-03-2003",
+                  "offset": 29
+                }
+              ],
+              "location": "DataDriven.user_again_enters_designation_and_dob(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Achieving Data Driven Testing in BDD-cucumber with Examples keyword and Scenario Outline",
+    "description": "",
+    "id": "achieving-data-driven-testing-in-bdd-cucumber-with-examples-keyword-and-scenario-outline",
+    "keyword": "Feature",
+    "uri": "C:/Users/Abha Kumari/eclipse-workspace/BDDdemoWithExamplesKeywordAndScenarioOutline/src/main/java/features/DataDriven.feature"
+  }
+]

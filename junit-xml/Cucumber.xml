@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.688735">
+<testcase classname="Achieving Data Driven Testing in BDD-cucumber with Examples keyword and Scenario Outline" name="Multiple DataSets" time="0.68132">
+<system-out><![CDATA[Given hello.................................................................passed
+When user enters "Abha" and "Kumari"........................................passed
+Then hi.....................................................................passed
+Then user again enters "SSE" and "01-02-2001"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Achieving Data Driven Testing in BDD-cucumber with Examples keyword and Scenario Outline" name="Multiple DataSets 2" time="0.005592">
+<system-out><![CDATA[Given hello.................................................................passed
+When user enters "Piyush" and "Kumar".......................................passed
+Then hi.....................................................................passed
+Then user again enters "SE" and "02-03-2002"................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Achieving Data Driven Testing in BDD-cucumber with Examples keyword and Scenario Outline" name="Multiple DataSets 3" time="0.001823">
+<system-out><![CDATA[Given hello.................................................................passed
+When user enters "Anika" and "Singh"........................................passed
+Then hi.....................................................................passed
+Then user again enters "ASE" and "03-03-2003"...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
