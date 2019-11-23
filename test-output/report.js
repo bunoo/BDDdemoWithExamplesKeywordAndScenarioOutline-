@@ -135,7 +135,7 @@ formatter.match({
   "location": "DataDriven.hello()"
 });
 formatter.result({
-  "duration": 674582500,
+  "duration": 594797700,
   "status": "passed"
 });
 formatter.match({
@@ -149,17 +149,17 @@ formatter.match({
       "offset": 24
     }
   ],
-  "location": "DataDriven.user_enters_username_and_password(String,String)"
+  "location": "DataDriven.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 5688500,
+  "duration": 5567900,
   "status": "passed"
 });
 formatter.match({
   "location": "DataDriven.hi()"
 });
 formatter.result({
-  "duration": 323500,
+  "duration": 294100,
   "status": "passed"
 });
 formatter.match({
@@ -173,10 +173,10 @@ formatter.match({
       "offset": 29
     }
   ],
-  "location": "DataDriven.user_again_enters_designation_and_dob(String,String)"
+  "location": "DataDriven.user_again_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 726000,
+  "duration": 305100,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,7 +225,7 @@ formatter.match({
   "location": "DataDriven.hello()"
 });
 formatter.result({
-  "duration": 322300,
+  "duration": 301700,
   "status": "passed"
 });
 formatter.match({
@@ -239,17 +239,17 @@ formatter.match({
       "offset": 26
     }
   ],
-  "location": "DataDriven.user_enters_username_and_password(String,String)"
+  "location": "DataDriven.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 4363800,
+  "duration": 504600,
   "status": "passed"
 });
 formatter.match({
   "location": "DataDriven.hi()"
 });
 formatter.result({
-  "duration": 370600,
+  "duration": 126600,
   "status": "passed"
 });
 formatter.match({
@@ -263,10 +263,10 @@ formatter.match({
       "offset": 28
     }
   ],
-  "location": "DataDriven.user_again_enters_designation_and_dob(String,String)"
+  "location": "DataDriven.user_again_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 534900,
+  "duration": 235600,
   "status": "passed"
 });
 formatter.scenario({
@@ -315,7 +315,7 @@ formatter.match({
   "location": "DataDriven.hello()"
 });
 formatter.result({
-  "duration": 191600,
+  "duration": 298400,
   "status": "passed"
 });
 formatter.match({
@@ -329,17 +329,17 @@ formatter.match({
       "offset": 25
     }
   ],
-  "location": "DataDriven.user_enters_username_and_password(String,String)"
+  "location": "DataDriven.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 725500,
+  "duration": 273000,
   "status": "passed"
 });
 formatter.match({
   "location": "DataDriven.hi()"
 });
 formatter.result({
-  "duration": 319300,
+  "duration": 278600,
   "status": "passed"
 });
 formatter.match({
@@ -353,10 +353,10 @@ formatter.match({
       "offset": 29
     }
   ],
-  "location": "DataDriven.user_again_enters_designation_and_dob(String,String)"
+  "location": "DataDriven.user_again_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 586600,
+  "duration": 304300,
   "status": "passed"
 });
 });
